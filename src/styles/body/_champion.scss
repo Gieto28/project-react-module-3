@@ -1,0 +1,68 @@
+.champion--background {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+
+.champion--background--img {
+    position: relative;
+    width: 95%;
+    height: auto;
+}
+
+.champion--background:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    background-color: var(--background);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--background) 100%), linear-gradient(90deg, rgba(255,255,255,0) 65%, var(--background) 100%), linear-gradient(270deg, rgba(255,255,255,0) 65%, var(--background) 100%), linear-gradient(360deg, rgba(255,255,255,0) 65%, var(--background) 100%);
+}
+
+.champion--banner {
+    position: relative;
+}
+
+.champion--banner--splashArt {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+    border-top: 1px solid var(--font--color);
+
+}
+
+.champion--banner--title span {
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -48px;
+}
+
+.champion--info--height {
+    margin: 0;
+    line-height: 0.3;
+}
+
+
+.button--add--to--team {
+    background-color: var(--background);
+    border: 1px solid var(--font--color);
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.button--add--to--team:hover {
+    color: var(--lighter--font--color);
+    transform: scale(1.08);
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+}

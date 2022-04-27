@@ -1,0 +1,12 @@
+.items--image {
+    max-width: 64px;
+    max-height: 64px;
+    transition: all 0.5 ease-in-out;
+}
+
+.items--card--content:hover {
+    .items--image {
+        border: 1px solid var(--font--color);
+        transition: all 0.5 ease-in-out;
+    }
+}

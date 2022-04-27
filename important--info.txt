@@ -1,0 +1,39 @@
+	See every champions:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/data/en_US/champion.json
+
+See every item:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/data/en_US/item.json
+
+	item image example:
+http://ddragon.leagueoflegends.com/cdn/12.7.1/img/item/1001.png
+
+	See every summoner spell:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/data/en_US/summoner.json
+
+	See summoner spell icon example:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/img/spell/SummonerFlash.png
+
+	Example of a specific champions:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/data/en_US/champion/Aatrox.json
+
+	Splash art example:
+http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg
+
+	Icon Art exampl:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/img/champion/Aatrox.png
+
+	Vertical banner example:
+http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg
+
+Champion assets passives example:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/img/passive/Anivia_P.png
+
+Champion abilities example:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/img/spell/FlashFrost.png
+
+
+All profile icons:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/data/en_US/profileicon.json
+
+Profile icon example:
+http://ddragon.leagueoflegends.com/cdn/12.5.1/img/profileicon/588.png

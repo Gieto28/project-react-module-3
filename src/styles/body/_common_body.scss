@@ -1,0 +1,16 @@
+.bodyHeight {
+    min-height: calc(100vh - 117px);
+    margin-bottom: 20px;
+}
+
+.league--search--input {
+    border: 1px solid var(--font--color);
+    background-color: var(--background);
+    width: 170px;
+}
+
+.league--search--icon {
+    transform: scale(1.1);
+    margin-right: 10px;
+    margin-bottom: 2px;
+}

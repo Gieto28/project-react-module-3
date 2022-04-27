@@ -1,0 +1,20 @@
+body::-webkit-scrollbar-track {
+	background-color: var(--background);
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background-color: var(--background);
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.15, var(--darker--font--color)),
+    color-stop(0.50, var(--font--color)),
+    color-stop(0.85, var(--darker--font--color)));
+}
